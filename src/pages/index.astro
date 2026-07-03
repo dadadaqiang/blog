@@ -1,6 +1,5 @@
 ---
 import Layout from "../components/Layout.astro";
-import Heading from "../components/Heading.astro";
 import { getPublishedPosts } from "../lib/posts";
 
 const PAGE_SIZE = 10;
@@ -20,10 +19,6 @@ const totalPages = Math.ceil(allPosts.length / PAGE_SIZE);
     "url": Astro.site?.href,
   })} />
   <section class="home">
-    <header class="home-header">
-      <Heading as="h1">G400 技术笔记</Heading>
-      <p class="home-tagline">记录技术探索、工具折腾和生活思考</p>
-    </header>
     <ul class="post-list">
       {
         posts.map((post) => {
