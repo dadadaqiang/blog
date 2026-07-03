@@ -1,6 +1,5 @@
 ---
 import Layout from "../../components/Layout.astro";
-import Heading from "../../components/Heading.astro";
 import { getPublishedPosts } from "../../lib/posts";
 import type { GetStaticPathsOptions } from "astro";
 
@@ -14,15 +13,11 @@ export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
 const { page } = Astro.props;
 ---
 
-<Layout title={`Page ${page.currentPage} — UINUX Blog`}>
+<Layout title={`第 ${page.currentPage} 页 — G400 技术笔记`}>
   <section class="home">
-    <header class="home-header">
-      <Heading as="h1">UINUX Blog</Heading>
-      <p class="home-tagline">Writing about systems, design, and building with restraint.</p>
-    </header>
     <ul class="post-list">
       {page.data.map((post) => {
-        const formattedDate = post.data.date.toLocaleDateString("en-US", {
+        const formattedDate = post.data.date.toLocaleDateString("zh-CN", {
           year: "numeric",
           month: "long",
           day: "numeric",

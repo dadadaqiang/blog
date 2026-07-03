@@ -56,7 +56,7 @@ export async function generateOgImage({
                 margin: 0,
                 letterSpacing: "-0.02em",
               },
-              children: "UINUX Blog",
+              children: "G400 技术笔记",
             },
           },
           {

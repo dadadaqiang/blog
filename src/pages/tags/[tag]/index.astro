@@ -24,7 +24,7 @@ export async function getStaticPaths() {
 const { tag, posts, totalPages, totalPosts } = Astro.props;
 ---
 
-<Layout title={`Posts tagged "${tag}" — UINUX Blog`} description={`All posts tagged "${tag}".`}>
+<Layout title={`Posts tagged "${tag}" — G400 技术笔记`} description={`All posts tagged "${tag}".`}>
   <section class="tag-page">
     <Heading as="h1">Tagged: {tag}</Heading>
     <p class="tag-count">{totalPosts} post{totalPosts !== 1 ? "s" : ""}</p>
