@@ -22,3 +22,9 @@ tags: ["VPS","SSH"]
 参考
 
 [https://www.cnblogs.com/chkhk/p/13414823.html](https://www.cnblogs.com/chkhk/p/13414823.html)
+
+### 相关阅读
+
+- [Windows 配置 SSH 免密登录 Linux](/posts/09-windows-ssh-key-login/)
+- [搭建富强如何挑选适合的 VPS](/posts/choose-vps-proxy/)
+- [如何测评 VPS 各项指标](/posts/vps-benchmark/)

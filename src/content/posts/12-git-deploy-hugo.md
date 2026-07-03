@@ -83,3 +83,9 @@ git push origin master
 另外，Hugo也有专门的部署工具，所以用git来部署，权当是玩票性质了。
 
 还有一点是，如果git的速度很慢，git push还不如用FTP上传更快….
+
+### 相关阅读
+
+- [Hugo 建立博客](/posts/13-hugo-blog-setup/)
+- [Hugo 添加使用图片资源](/posts/07-hugo-images/)
+- [Hugo 页面跳转和锚点链接设置](/posts/06-hugo-redirect-anchor/)

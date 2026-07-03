@@ -218,3 +218,8 @@ Query ID
 * * *
 
 如果你也被 X.com 的书签导出困扰，欢迎试用或贡献代码！
+
+### 相关阅读
+
+- [在 WSL2 中连接宿主机 Windows Chrome 调试端口](/posts/wsl2-chrome-cdp/)
+- [构建 Halo Publish Tool：用 pi Agent 让 Markdown 一键发布到博客](/posts/halo-publish-tool/)

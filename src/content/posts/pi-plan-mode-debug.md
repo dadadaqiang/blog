@@ -68,3 +68,9 @@ Pi Coding Agent 的 Plan Mode 扩展（`~/.pi/agent/extensions/plan-mode/`）提
 *   **Refine the plan** ✅ — 提交后 LLM 不调工具直接输出优化 Plan
 *   **Execute the plan** — 进入执行模式
 *   **Exit plan mode** — 退出后工具完整恢复
+
+### 相关阅读
+
+- [从调研到实现：为 Pi Coding Agent 亲手打造 Plan Mode 扩展](/posts/pi-plan-mode-from-scratch/)
+- [和 AI 一起修 Bug：一次 pi plan-mode 扩展的协作调试记录](/posts/pi-plan-mode-ai-collab/)
+- [为 Pi Coding Agent 装上搜索引擎——pi-web-access 安装记](/posts/pi-web-access-install/)

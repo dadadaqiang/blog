@@ -218,3 +218,8 @@ curl -s -o /dev/null -w "HTTP %{http_code}" \
 ```
 
 如果返回 404，那很可能和我遇到的是同一个问题，试试 Nginx 层覆写 Accept 头就解决了。
+
+### 相关阅读
+
+- [用 Astro + Cloudflare Pages 免费搭建个人博客](/posts/astro-cloudflare-blog/)
+- [构建 Halo Publish Tool：用 pi Agent 让 Markdown 一键发布到博客](/posts/halo-publish-tool/)

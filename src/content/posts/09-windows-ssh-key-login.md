@@ -152,3 +152,9 @@ RSAAuthentication yes   //去掉前面的注释
 PubkeyAuthentication yes  //去掉前面的注释  
 AuthorizedKeysFile .ssh/authorized_keys  //去掉前面的注释
 ```
+
+### 相关阅读
+
+- [Windows 连接 VPS SSH permissions for key are too open](/posts/windows-ssh-permissions-too-open/)
+- [搭建富强如何挑选适合的 VPS](/posts/choose-vps-proxy/)
+- [如何测评 VPS 各项指标](/posts/vps-benchmark/)

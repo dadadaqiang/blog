@@ -50,3 +50,9 @@ Hugo最难的地方在于安装主题theme。
 4. 怎么生成静态文件
 
 为了把博客部署到VPS或者github Page 需要生成博客的静态文件，也就是html/css/js 三大件。
+
+### 相关阅读
+
+- [Git 部署 Hugo 博客](/posts/12-git-deploy-hugo/)
+- [Hugo 添加使用图片资源](/posts/07-hugo-images/)
+- [Hugo 页面跳转和锚点链接设置](/posts/06-hugo-redirect-anchor/)

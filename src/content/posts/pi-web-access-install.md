@@ -61,6 +61,12 @@ Pi Coding Agent 的 Plan Mode 扩展（`~/.pi/agent/extensions/plan-mode/`）提
 
 ## 测试验证
 
+### 相关阅读
+
+- [从调研到实现：为 Pi Coding Agent 亲手打造 Plan Mode 扩展](/posts/pi-plan-mode-from-scratch/)
+- [Pi Coding Agent Plan Mode 扩展调试与修复记录](/posts/pi-plan-mode-debug/)
+- [和 AI 一起修 Bug：一次 pi plan-mode 扩展的协作调试记录](/posts/pi-plan-mode-ai-collab/)
+
 所有 5 个对话框选项已实测通过：
 
 *   **Plan 提取** ✅ — 对话框正常弹出

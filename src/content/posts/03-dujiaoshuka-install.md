@@ -75,3 +75,7 @@ sudo php artisan dujiao install
 这个直接在后台给对应的文件夹修改权限成775就可以了。
 
 最后大功告成。
+
+### 相关阅读
+
+- [踩坑笔记：zfaka 设置邮箱新增失败解决方法](/posts/02-zfaka-email-bug/)

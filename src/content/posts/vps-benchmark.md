@@ -37,3 +37,9 @@ export noninteractive=true && curl -L https://cdn.spiritlhl.net/https://raw.gith
 *   三网路由测试：基于 [NTrace-core](https://github.com/nxtrace/NTrace-core)，二次开发至 [nt3](https://github.com/oneclickvirt/nt3)
 *   网速测试：基于 [speedtest.net](https://github.com/spiritLHLS/speedtest.net-CN-ID) 和 [speedtest.cn](https://github.com/spiritLHLS/speedtest.cn-CN-ID) 数据，开发至 [oneclickvirt/speedtest](https://github.com/oneclickvirt/speedtest)
 *   三网 Ping 值测试：借鉴 [ecsspeed](https://github.com/spiritLHLS/ecsspeed)，二次开发至 [pingtest](https://github.com/oneclickvirt/pingtest)
+
+### 相关阅读
+
+- [搭建富强如何挑选适合的 VPS](/posts/choose-vps-proxy/)
+- [Windows 配置 SSH 免密登录 Linux](/posts/09-windows-ssh-key-login/)
+- [Windows 连接 VPS SSH permissions for key are too open](/posts/windows-ssh-permissions-too-open/)

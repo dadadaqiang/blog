@@ -41,3 +41,9 @@ Hugo生成页面的时候，会做以下事情：
 2. 获取你自己添加的资源，复制static/* 到 public/
 3. 遍历content下文件，获取文件头信息，把markdown转换成html
 4. 渲染，包括正文页面，列表页面，分类页面，主页等等。
+
+### 相关阅读
+
+- [Hugo 建立博客](/posts/13-hugo-blog-setup/)
+- [Hugo 页面跳转和锚点链接设置](/posts/06-hugo-redirect-anchor/)
+- [Git 部署 Hugo 博客](/posts/12-git-deploy-hugo/)

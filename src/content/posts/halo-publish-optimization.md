@@ -160,3 +160,9 @@ chunk 数
 * * *
 
 如果你也在用 Halo 博客 + bb-browser 做自动化发布，欢迎交流踩坑经验。
+
+### 相关阅读
+
+- [构建 Halo Publish Tool：用 pi Agent 让 Markdown 一键发布到博客](/posts/halo-publish-tool/)
+- [在 WSL2 中连接宿主机 Windows Chrome 调试端口](/posts/wsl2-chrome-cdp/)
+- [用 Astro + Cloudflare Pages 免费搭建个人博客](/posts/astro-cloudflare-blog/)

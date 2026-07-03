@@ -411,3 +411,9 @@ New-Item -ItemType Junction -Path "C:\Users\w\.bb-chrome-profile" `
 
 > 如果你遇到类似的问题，欢迎在评论区交流。
 > 2026-06-12 · [bb-browser](https://github.com/epiral/bb-sites)
+
+### 相关阅读
+
+- [构建 Halo Publish Tool：用 pi Agent 让 Markdown 一键发布到博客](/posts/halo-publish-tool/)
+- [DownloadXBookmarks：无 API Key 的 X 书签导出扩展](/posts/downloadxbookmarks-extension/)
+- [Halo Publish 工具优化：一次发布踩坑与修复实录](/posts/halo-publish-optimization/)

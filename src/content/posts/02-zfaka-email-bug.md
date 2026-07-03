@@ -36,3 +36,7 @@ zfaka的源码里写的是"smpt"，意思就是这里判断的参数是'smpt'，
 ### 解决方法
 
 当然是直接修改"smpt"为"smtp"，就OK啦。
+
+### 相关阅读
+
+- [安装独角数卡发卡站源码](/posts/03-dujiaoshuka-install/)

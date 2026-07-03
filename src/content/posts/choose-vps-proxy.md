@@ -68,3 +68,9 @@ CN2 GIA 产品在从市级 → 省级 → 国际出口 → 境外接入点的过
 比如：
 
 [本人在用的ExtraVM就很不错，有很多低价VPS,点击查看](https://extravm.com/billing/aff.php?aff=752)
+
+### 相关阅读
+
+- [如何测评 VPS 各项指标](/posts/vps-benchmark/)
+- [Windows 配置 SSH 免密登录 Linux](/posts/09-windows-ssh-key-login/)
+- [Windows 连接 VPS SSH permissions for key are too open](/posts/windows-ssh-permissions-too-open/)

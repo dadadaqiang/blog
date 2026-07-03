@@ -271,6 +271,12 @@ streaming 时行为
 
 * * *
 
+### 相关阅读
+
+- [从调研到实现：为 Pi Coding Agent 亲手打造 Plan Mode 扩展](/posts/pi-plan-mode-from-scratch/)
+- [Pi Coding Agent Plan Mode 扩展调试与修复记录](/posts/pi-plan-mode-debug/)
+- [为 Pi Coding Agent 装上搜索引擎——pi-web-access 安装记](/posts/pi-web-access-install/)
+
 ## 附录
 
 ### 最终代码 diff
