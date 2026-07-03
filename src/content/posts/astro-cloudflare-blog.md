@@ -181,3 +181,10 @@ Astro + UINUX Blog 主题 → GitHub → Cloudflare Pages → blog.455545.xyz
 这一路从 Hugo 到 Halo 再到 Astro，换了一圈，最终还是回到了"写 Markdown + git push"这种最原始的发布方式。
 
 挺好的。
+
+### 相关阅读
+
+- [Halo Publish Tool：用 pi Agent 让 Markdown 一键发布到博客](/posts/halo-publish-tool/)
+- [Halo Publish 工具优化：一次发布踩坑与修复实录](/posts/halo-publish-optimization/)
+- [Google Search Console 无法读取站点地图？完整排查与修复记录](/posts/google-search-console-sitemap/)
+- [Hugo 建立博客](/posts/13-hugo-blog-setup/)

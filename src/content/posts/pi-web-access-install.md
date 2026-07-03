@@ -5,8 +5,6 @@ date: 2026-06-19T00:00:00.000Z
 tags: ["pi"]
 ---
 
-# 为 Pi Coding Agent 装上"搜索引擎"——pi-web-access 安装记
-
 ## 背景
 
 Pi Coding Agent 的 Plan Mode 扩展（`~/.pi/agent/extensions/plan-mode/`）提供只读探索模式，让 LLM 先分析代码、制定计划，再选择执行。但在使用中发现多个问题。

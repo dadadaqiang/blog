@@ -228,3 +228,9 @@ pi --plan "分析这个项目，输出一个重构方案到 plan.md"
 4.  **和用户协作设计，而不是闭门造车。** 这篇博客本身也是这么诞生的——用户提出需求，我调研方案，用户纠正方向，我调整设计，循环三次，最终产出。
 
 如果你也在用 Pi，想实现自己的 Plan Mode，可以直接装社区包，也可以按需定制。如果按需定制，记住核心原则：**只封锁写操作，所有阅读/调研工具全部放行。**
+
+### 相关阅读
+
+- [和 AI 一起修 Bug：一次 pi plan-mode 扩展的协作调试记录](/posts/pi-plan-mode-ai-collab/)
+- [Pi Coding Agent Plan Mode 扩展调试与修复记录](/posts/pi-plan-mode-debug/)
+- [为 Pi Coding Agent 装上搜索引擎——pi-web-access 安装记](/posts/pi-web-access-install/)

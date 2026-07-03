@@ -277,6 +277,12 @@ pi Agent 的 Skill + Extension 机制非常适合做这种事：
 \- 脚本: `~/.pi/agent/skills/halo-publish/scripts/halo-publish.mjs`  
 \- 扩展: `~/.pi/agent/extensions/halo-publish.ts`
 
+### 相关阅读
+
+- [Halo Publish 工具优化：一次发布踩坑与修复实录](/posts/halo-publish-optimization/)
+- [在 WSL2 中连接宿主机 Windows Chrome 调试端口](/posts/wsl2-chrome-cdp/)
+- [用 Astro + Cloudflare Pages 免费搭建个人博客](/posts/astro-cloudflare-blog/)
+
 * * *
 
 _2026-06-12 · [Halo](https://github.com/halo-dev/halo) · [pi](https://github.com/earendil-works/pi)_
