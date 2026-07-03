@@ -55,6 +55,14 @@ const jsonLd = {
 
 <Layout title={`${post.data.title} — G400 技术笔记`} description={post.data.description} ogType="article" ogImage={ogImage}>
   <script slot="head" type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "首页", "item": "https://blog.455545.xyz/" },
+      { "@type": "ListItem", "position": 2, "name": post.data.title, "item": postUrl },
+    ],
+  })} />
   <Article
     title={post.data.title}
     date={post.data.date}
