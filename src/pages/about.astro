@@ -1,0 +1,34 @@
+---
+import Layout from "../components/Layout.astro";
+import Heading from "../components/Heading.astro";
+---
+
+<Layout title="关于 — 张大强的博客" description="关于我和这个博客">
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "关于张大强的博客",
+    "description": "关于我和这个博客",
+    "url": Astro.site?.href + "about/",
+    "mainEntity": {
+      "@type": "Person",
+      "name": "张大强",
+      "url": Astro.site?.href,
+    },
+  })} />
+
+  <article class="prose">
+    <Heading as="h1">关于</Heading>
+
+    <p>这里是张大强的博客，记录技术探索、工具折腾和生活思考。</p>
+
+    <p>一个喜欢折腾技术的开发者，从 Hugo 到 Halo 再到 Astro，博客平台换了一轮又一轮，不变的是一直在写。</p>
+
+    <p>使用 <a href="https://astro.build/">Astro</a> + <a href="https://github.com/Get-UINUX/uinux-blog">UINUX Blog</a> 主题构建，部署在 <a href="https://pages.cloudflare.com/">Cloudflare Pages</a> 上。</p>
+
+    <h2>联系我</h2>
+    <ul>
+      <li>GitHub: <a href="https://github.com/dadadaqiang">dadadaqiang</a></li>
+    </ul>
+  </article>
+</Layout>
