@@ -6,7 +6,6 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "prepare": "patch-package"
   },
   "dependencies": {
     "@astrojs/mdx": "^5.0.0",
