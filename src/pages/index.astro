@@ -15,13 +15,13 @@ const totalPages = Math.ceil(allPosts.length / PAGE_SIZE);
   <script slot="head" type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "UINUX Blog",
+    "name": "G400 技术笔记",
     "description": "Writing about systems, design, and building with restraint.",
     "url": Astro.site?.href,
   })} />
   <section class="home">
     <header class="home-header">
-      <Heading as="h1">张大强的博客</Heading>
+      <Heading as="h1">G400 技术笔记</Heading>
       <p class="home-tagline">记录技术探索、工具折腾和生活思考</p>
     </header>
     <ul class="post-list">

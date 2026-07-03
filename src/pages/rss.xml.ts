@@ -6,7 +6,7 @@ export async function GET(context: APIContext) {
   const posts = await getPublishedPosts();
 
   return rss({
-    title: "张大强的博客",
+    title: "G400 技术笔记",
     description: "记录技术探索、工具折腾和生活思考",
     site: context.site!,
     items: posts.map((post) => ({

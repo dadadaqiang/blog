@@ -44,7 +44,7 @@ const ogImageAbsolute = new URL(ogImage, Astro.site).href;
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalURL.href} />
-    <meta property="og:site_name" content="张大强的博客" />
+    <meta property="og:site_name" content="G400 技术笔记" />
     <meta property="og:image" content={ogImageAbsolute} />
 
     <!-- Twitter -->
@@ -56,7 +56,7 @@ const ogImageAbsolute = new URL(ogImage, Astro.site).href;
     <!-- JSON-LD -->
     <slot name="head" />
 
-    <link rel="alternate" type="application/rss+xml" title="张大强的博客" href="/rss.xml" />
+    <link rel="alternate" type="application/rss+xml" title="G400 技术笔记" href="/rss.xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
