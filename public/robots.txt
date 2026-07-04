@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://blog.455545.xyz/sitemap-index.xml
