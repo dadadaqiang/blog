@@ -19,6 +19,7 @@ const totalPages = Math.ceil(allPosts.length / PAGE_SIZE);
     "url": Astro.site?.href,
   })} />
   <section class="home">
+    <h1 class="home-title">G400 技术笔记</h1>
     <ul class="post-list">
       {
         posts.map((post) => {
@@ -58,6 +59,16 @@ const totalPages = Math.ceil(allPosts.length / PAGE_SIZE);
 <style>
   .home {
     max-width: var(--width-content);
+  }
+
+  .home-title {
+    font-family: var(--font-heading);
+    font-size: 1.75rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    margin-bottom: var(--space-lg);
+    color: var(--color-text);
   }
 
   .home-header {

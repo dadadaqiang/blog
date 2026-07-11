@@ -14,7 +14,8 @@ const { page } = Astro.props;
 ---
 
 <Layout title={`第 ${page.currentPage} 页 — G400 技术笔记`}>
-  <section class="home">
+  <section class="page-pagination">
+    <h1 class="page-title">第 {page.currentPage} 页</h1>
     <ul class="post-list">
       {page.data.map((post) => {
         const formattedDate = post.data.date.toLocaleDateString("zh-CN", {
@@ -53,8 +54,18 @@ const { page } = Astro.props;
 </Layout>
 
 <style>
-  .home {
+  .page-pagination {
     max-width: var(--width-content);
+  }
+
+  .page-title {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    margin-bottom: var(--space-lg);
+    color: var(--color-text);
   }
 
   .home-header {
